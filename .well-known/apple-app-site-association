@@ -4,9 +4,7 @@
     "details": [
       {
         "appID": "G9MCTVS6BN.com.together.event",
-        "paths": [
-          "*"
-        ]
+        "paths": ["*"]
       }
     ]
   }
