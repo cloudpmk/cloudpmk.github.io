@@ -1,11 +1,27 @@
 {
-    "applinks": {
-        "apps": [],
-        "details": [
-            {
-                "appID": "G9MCTVS6BN.com.together.event",
-                "paths": ["*"]
-            }
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "G9MCTVS6BN.com.together.event",
+        "components": [
+          {
+            "/": "/login",
+            "comment": "Matches URL with a path /login"
+          },
+          {
+            "/": "/calendar/*",
+            "comment": "Matches any URL with a path that starts with /calendar/."
+          },
+          {
+            "/": "/community/*",
+            "comment": "Matches any URL with a path that starts with /community/."
+          },
+          {
+            "/": "*"
+          }
         ]
-    }
+      }
+    ]
+  }
 }
