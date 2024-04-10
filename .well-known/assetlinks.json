@@ -1,12 +1,12 @@
 [
-  {
-    "relation": ["delegate_permission/common.handle_all_urls"],
-    "target": {
-      "namespace": "android_app",
-      "package_name": "com.together.event",
-      "sha256_cert_fingerprints": [
-        "A5:CB:8F:4B:BB:E6:0C:EA:4B:52:39:28:C8:4F:57:E2:11:53:92:60:28:08:68:BB:29:10:79:0B:42:16:43:8A"
-      ]
+    {
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.together.event",
+        "sha256_cert_fingerprints": [
+          "A5:CB:8F:4B:BB:E6:0C:EA:4B:52:39:28:C8:4F:57:E2:11:53:92:60:28:08:68:BB:29:10:79:0B:42:16:43:8A"
+        ]
+      }
     }
-  }
-]
+  ]
